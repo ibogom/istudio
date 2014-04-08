@@ -9,10 +9,9 @@
 <script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
 <script src="js/respond.min.js" type="text/javascript"></script>
 <script src="js/jquery.scrollTo-min.js" type="text/javascript"></script>
-<script src="js/scrollspy.js"></script>
 <script src="js/animation.js"></script>
 </head>
-<body  data-spy="scroll" data-target=".small_menu">
+<body>
 <div class="navigation">
     <div class="nav_wrapper">
         <div class="s_menu">
@@ -25,7 +24,7 @@
                 <div><a href="#">Контакты</a></div>
              </div>
         <div class="anchor">
-        <a href="#" id="top" onclick="return false;"></a>
+        <a href="#"></a>
         </div>
         <div class="email">
             <a href="#"><img src="img/mail.png" /></a>
@@ -51,7 +50,18 @@
         </div>
   </div>
 </div>
-	 <?php include("blocks/about.php"); ?> 
+<div class='content text' id='about'>
+		<h2>
+        ~
+        <br/>
+        О Нас 
+        </h2>
+        <div>
+             <p>Уже более трех лет мы занимаемся созданием сайтов и работами в различных направлениях рекламной деятельности. Представительства нашей веб-студии успешно работают в Киеве, Харькове и Донецке.
+    Опыт в разработке эффективных рекламных решений дает нам возможность создавать сайты, которые отвечают всем требованиям наших заказчиков, позволяют привлечь и заинтересовать целевую аудиторию и помогают проводить эффективный поиск новых клиентов.
+    </p>
+        </div>
+</div>
 	 <?php include("blocks/services.php"); ?>
      <?php include("blocks/portfolio.php"); ?>
   </div>

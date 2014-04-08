@@ -1,5 +1,14 @@
-@media only screen and (min-width: 660px) {
-
+@media only screen and (min-width: 748px) {
+.small_menu
+{
+	width:20.5%;
+	max-width:160px;
+	min-width:130px;
+	a{
+	  padding-left:20px;
+	  font-size:0.93em;
+	}
+}
 .main {
 	width: 90.675%;
 	padding-left: 1.1625%;
@@ -15,11 +24,24 @@
 }
 .content
 {
-	width:97.675%;
-	min-width:660px;
-	padding-left: 1.1625%;
-	padding-right: 1.1625%;
+	width: 90%;
+	min-width: 660px;
+	padding-left: 8.5%;
+	padding-right: 1.5%;
 } img {
 	max-width:130px;
+}
+div.portfolio_wrapper
+{
+	width:50%;
+}
+div.title
+{
+	width:50%!important;
+
+}
+.description
+{
+	width:50%!important;
 }
 }

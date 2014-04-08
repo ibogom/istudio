@@ -52,3 +52,19 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
+.portfolio
+{
+	&:before
+	{
+		background-image:none!important;
+	}
+	.pic
+	{
+		float:left!important;
+		width:33%!important;
+		img{
+			width:100%!important;
+			max-width:659px!important;
+		}
+	}
+}
